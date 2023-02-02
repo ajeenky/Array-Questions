@@ -8,7 +8,6 @@ public class MoveNegative {
 		int[] arr= {-12, 11, -13, -5, 6, -7, 5, -3, -6};
 		
 		IntStream.of(arr).sorted().forEach(s->System.out.print(s+" "));
-		
 
 	}
 
