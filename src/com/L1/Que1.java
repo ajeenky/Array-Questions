@@ -8,16 +8,12 @@ public class Que1 {
 		
 		int arr[] = {10, 20, 15, 2, 23, 90, 67};
 		
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = i + 1; j < arr.length; j++) {
-				if (arr[i] > arr[j]) {
-					int temp = arr[i];
-					arr[i] = arr[j];
-					arr[j] = temp;
-				}
+		for (int i = 1; i < arr.length - 1; i++) {
+			if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+				System.out.println("Peak element is --> "+arr[i]);
 			}
 		}
-		System.out.println("Peak element is --> "+arr[arr.length-1]);
+		
 	}
 
 }
