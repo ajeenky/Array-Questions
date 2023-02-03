@@ -5,13 +5,27 @@ package com.velocity;
  *  Output: 2 
  */
 public class FreqInSortedArr1 {
-    public static int binarySearch(){
+    public static int binarySearch(int []arr, int start, int end, int x){
+        int mid = start + (end-start)/2;
+        if(arr[mid] == x) return mid;
+        if(arr[mid] < x) return binarySearch(arr, start, mid-1, x);
+        return binarySearch(arr, mid+1, end, x);
         
-        return 0;
         
     }
     public static void freq1(int []arr, int k){
+        int ind = binarySearch(arr, 0, arr.length-1, k);
+        
+        //count element on the left side
+        int count = 1;
+        int left = ind-1;
+        while(left>0 && arr[left] == x){
+            count++;
+            left--;
+        }
 
+        //count element on the right side
+        int right = ind+1;
     }
 
     public static void main(String[] args) {
