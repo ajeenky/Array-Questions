@@ -3,7 +3,7 @@ package com.velocity;
 public class CapitalSmall {
 
 	public static void main(String[] args) {
-		String str = "jaVa Is CodInG LanguaGe";
+		String str = "JaVa Is CodInG LAnguaGe";
 		StringBuffer buffer = new StringBuffer(str);
 		for (int i =0; i<str.length(); i++) {
 			if(Character.isLowerCase(str.charAt(i))) {
