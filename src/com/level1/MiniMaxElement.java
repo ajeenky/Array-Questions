@@ -1,4 +1,4 @@
- package com.velocity;
+ package com.level1;
 
 public class MiniMaxElement {
 
