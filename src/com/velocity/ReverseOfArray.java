@@ -1,7 +1,8 @@
 package com.velocity;
 
 public class ReverseOfArray {
-
+		// Method Having return type Array 
+		// which give array in reverse manner
 		public int [] getReverseArray(int[]arr) {
 			int l = arr.length;
 			int j =0;
