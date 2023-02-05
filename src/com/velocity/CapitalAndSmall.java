@@ -1,6 +1,6 @@
 package com.velocity;
 //Java program to replace lower case with upper case & vice versa
-public class CapitalSmall {
+public class CapitalAndSmall {
 
 	public static void main(String[] args) {
 		String str = "jaVa Is CodInG LanguaGe";
