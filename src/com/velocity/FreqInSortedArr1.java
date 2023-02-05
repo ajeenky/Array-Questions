@@ -19,7 +19,7 @@ public class FreqInSortedArr1 {
         //count element on the left side
         int count = 1;
         int left = ind-1;
-        while(left>0 && arr[left] == x){
+        while(left>0 && arr[left] == k){
             count++;
             left--;
         }
