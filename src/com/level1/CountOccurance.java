@@ -8,7 +8,7 @@ public class CountOccurance {
 		int[] arr= {1,2,3,4,55,6,6,3,11};
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter Digit to find count");
+		System.out.println("Enter Number of which count is rquired.");
 		int x=scanner.nextInt();
 		int count=0;
 		scanner.close();
