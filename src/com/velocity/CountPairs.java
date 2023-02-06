@@ -11,12 +11,12 @@ public class CountPairs {
                 currentSum += arr[j];
                 if(currentSum == sum){
                     count++;
-                }
+                }currentSum = arr[i];   //after counting one pair, set ccurrentSum---to default. so it can detect next pair
             }
         }System.out.println(count);
     }
     public static void main(String[] args) {
-        int [] array = {1, 5, 7, -1};
+        int [] array = {1, 5, 7, -1, 5, 5, 5, 5};
         int sum = 6;
         totalPairs(array, sum);
     }
