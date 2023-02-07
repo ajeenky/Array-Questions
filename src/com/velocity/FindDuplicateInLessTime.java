@@ -12,7 +12,7 @@ public class FindDuplicateInLessTime {
         for (int i = 0; i < arr.length; i++) {
             int index=Math.abs(arr[i])-1;        
             if (arr[index] < 0) {
-                System.out.print(index);
+                System.out.print(index+1);
             } else {
                 arr[index] = -arr[index];
             }
@@ -55,18 +55,26 @@ arr[index] = -3
 index = 6-1 = 5
 arr[index] < 0 == false
 arr[index] = -6
-{-1, -2, -3, 6, 3, -6, 1}
+{-1, -2, -3, -6, 3, -6, 1}
 
 5th loop
 {1, 2, 3, 6, 3, 6, 1}
 index = 3-1 = 2
-arr[index] < 0 ==true               print on consol----3(which is duplicate element)
-{-1, -2, -3, 6, 3, -6, 1}           no change in arr
-
+arr[index] < 0 ==true               print on consol--index+1=3===3(which is duplicate element)
+{-1, -2, -3, -6, 3, -6, 1}           no change in arr
 
 6th loop
 {1, 2, 3, 6, 3, 6, 1}
 index = 6-1 = 5
-arr[index] <0 ==true                print ----3 
-  
+arr[index] <0 ==true                print --index+1== 6 
+{-1, -2, -3, -6, 3, -6, 1}           no change in arr
+
+7th loop
+{1, 2, 3, 6, 3, 6, 1}
+index = 1-1 = 0
+arr[index] < 0==true                print index+1 ==1
+
+
+output====== 3 6 1
+
  */
