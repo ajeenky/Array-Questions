@@ -23,6 +23,7 @@ public class UnionIntersection {
 		Set<Integer> intersection = new HashSet<Integer>();
 		for (int i : arr1) {
 			for (int j : arr2) {
+				if(i==j)
 				intersection.add(i);
 
 			}
