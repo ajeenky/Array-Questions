@@ -8,6 +8,7 @@ public class ArrayToSeparateOneSide {
 		
 		int arr[] = {-3,22,43,-16,-8,6,9,-1,-8};
 		
+		
 		int len=arr.length;
 		int temp;
 		System.out.println("Array is:");
