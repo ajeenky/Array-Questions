@@ -41,6 +41,7 @@ public class UnionIntersection {
         		}
         	
         	 System.out.println(arr3[i]);
+        	 
         }
        
 
