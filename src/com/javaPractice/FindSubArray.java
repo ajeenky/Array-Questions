@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 //Find Subarray with given sum | Set 1 (Non-negative Numbers)
 //Input: arr[] = {1, 4, 20, 3, 10, 5}, sum = 13
 //Output: Sum found between indexes 3 and 4

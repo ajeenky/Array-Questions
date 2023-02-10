@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 //Count pairs with given sum
 //Input:  arr[] = {1, 5, 7, -1}, sum = 6
 //Output:  2

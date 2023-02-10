@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 
 public class QuickSort {
     static int partition(int []arr, int low, int high){

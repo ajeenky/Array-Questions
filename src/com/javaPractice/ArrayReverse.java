@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 
 /*
  * Write a program to reverse an array or string

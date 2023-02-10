@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 /*
  * Sort an array of 0s, 1s and 2s | Dutch National Flag problem
  *  Input: {0, 1, 2, 0, 1, 2}

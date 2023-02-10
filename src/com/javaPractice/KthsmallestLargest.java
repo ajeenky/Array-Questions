@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 /*
  * 5. K’th Smallest/Largest Element in Unsorted Array
  *    Input: arr[] = {7, 10, 4, 3, 20, 15}, K = 3     // 3 4 7 10 15 20

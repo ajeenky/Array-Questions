@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 //Find the Missing Number
 //Input: arr[] = {1, 2, 4, 6, 3, 7, 8}, N = 8
 //Output: 5

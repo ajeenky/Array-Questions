@@ -1,4 +1,4 @@
-package com.velocity;
+package com.javaPractice;
 //Find duplicates in O(n) time and O(1) extra space | Set 1
 //Input : n = 7 and array[] = {1, 2, 3, 6, 3, 6, 1}
 //Output: 1, 3, 6
