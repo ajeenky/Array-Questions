@@ -1,6 +1,7 @@
 package com.velocity;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class SortArray {
 
@@ -20,6 +21,9 @@ public class SortArray {
 		}
 		// Sorting in Default Order(Ascending)
 				//Arrays.sort(arr);
+		
+		//sort array using stream function(Ascending)
+		//int[] sortedArr = IntStream.of(arr).sorted().toArray();
 				
 		for (int a : arr) {
 			System.out.print(a + " ");
