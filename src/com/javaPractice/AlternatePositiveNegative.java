@@ -10,17 +10,17 @@ public class AlternatePositiveNegative {
         int even_idx = 0, odd_idx = 1;
         int[] ans = new int[nums.length];
 
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] >= 0) {
-                ans[even_idx] = nums[i];
+        for (int num : nums) {
+            if (num >= 0) {
+                ans[even_idx] = num;
                 even_idx += 2;    //updating idx to put positive int in alternate places
             } else {
-                ans[odd_idx] = nums[i];
+                ans[odd_idx] = num;
                 odd_idx += 2;
             }
         }
-        for(int i=0; i<ans.length; i++){
-            System.out.print(ans[i]+" ");
+        for (int an : ans) {
+            System.out.print(an + " ");
         }
     }
     public static void main(String[] args) {
