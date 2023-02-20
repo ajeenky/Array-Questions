@@ -2,8 +2,7 @@ package com.level2;
 
 public class LargestSumSubArray {
 ////KADAN'S Algorithm///
-	
-	
+
 	public static int kadans(int[] arr) {
 		int ms=Integer.MIN_VALUE;  //Maximum Sum
 		int cs=0;				   //Current Sum
@@ -14,11 +13,9 @@ public class LargestSumSubArray {
 			}
 			ms=Math.max(ms, cs);
 		}
-		
-		
-		
 		return ms;
 	}
+	
 	
 	public static void main(String[] args) {
 	
