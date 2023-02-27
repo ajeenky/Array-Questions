@@ -1,4 +1,4 @@
-package com.arrayPractice;
+package com.L1;
 //program for converting array to list 
 import java.util.ArrayList;
 

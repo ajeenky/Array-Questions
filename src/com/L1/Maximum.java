@@ -1,5 +1,5 @@
-package com.arrayPractice;
-
+package com.L1;
+//find maximum number
 public class Maximum {
 
 	

@@ -1,4 +1,4 @@
-package com.arrayPractice;
+package com.L1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,5 +1,5 @@
-package com.arrayPractice;
-
+package com.L1;
+//reverse a given array
 public class ReverseArray {
 
 	public static void main(String[] args) {

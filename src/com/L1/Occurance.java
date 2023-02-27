@@ -1,5 +1,5 @@
-package com.arrayPractice;
-
+package com.L1;
+//find the occurance of the array
 public class Occurance {
 
 	public static void main(String[] args) {

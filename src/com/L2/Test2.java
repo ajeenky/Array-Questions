@@ -1,4 +1,4 @@
-package com.program;
+package com.L2;
 
 public class Test2 {
 

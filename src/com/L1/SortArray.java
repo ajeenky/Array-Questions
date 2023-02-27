@@ -1,5 +1,5 @@
-package com.arrayPractice;
-
+package com.L1;
+//sorting of the array
 public class SortArray {
 
 	public static void main(String[] args) {
